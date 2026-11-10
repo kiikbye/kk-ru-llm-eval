@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+*.gguf
+results/new-capture.json
+results/new-report.md

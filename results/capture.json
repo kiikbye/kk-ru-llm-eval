@@ -1,0 +1,322 @@
+{
+  "model": "Qwen2.5-0.5B-Instruct-Q4_K_M",
+  "revision": "9217f5db79a29953eb74d5343926648285ec7e67",
+  "engine": "llama.cpp b12244 (d5bbcd1f3), CPU",
+  "dataset_sha256": "13341d67a89d3879a0ad007e444098c60c23e3e0840d0fb001bcd74751075701",
+  "setup_sha256": "0aaacb235089613591fff592d2083a6367fd991fb92f7958f7edf6ca379c6469",
+  "generation": {
+    "temperature": 0,
+    "seed": 42,
+    "max_tokens": 48
+  },
+  "demo_ids": [
+    "kk-d02",
+    "kk-d06",
+    "kk-d13",
+    "ru-d03",
+    "ru-d08",
+    "ru-d12"
+  ],
+  "responses": [
+    {
+      "id": "kk-t01",
+      "strategy": "zero-shot",
+      "raw": "{\"label\": \"bug\"}"
+    },
+    {
+      "id": "kk-t01",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"feature\"}"
+    },
+    {
+      "id": "kk-t02",
+      "strategy": "zero-shot",
+      "raw": "{\"label\": \"bug\"}"
+    },
+    {
+      "id": "kk-t02",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"feature\"}"
+    },
+    {
+      "id": "kk-t03",
+      "strategy": "zero-shot",
+      "raw": "{\"label\": \"bug\"}"
+    },
+    {
+      "id": "kk-t03",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"bug\"}"
+    },
+    {
+      "id": "kk-t04",
+      "strategy": "zero-shot",
+      "raw": "{\"label\": \"bug\"}"
+    },
+    {
+      "id": "kk-t04",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"bug\"}"
+    },
+    {
+      "id": "kk-t05",
+      "strategy": "zero-shot",
+      "raw": "{\"label\": \"bug\"}"
+    },
+    {
+      "id": "kk-t05",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"feature\"}"
+    },
+    {
+      "id": "kk-t06",
+      "strategy": "zero-shot",
+      "raw": "{\"label\": \"bug\"}"
+    },
+    {
+      "id": "kk-t06",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"feature\"}"
+    },
+    {
+      "id": "kk-t07",
+      "strategy": "zero-shot",
+      "raw": "{\"label\": \"bug\"}"
+    },
+    {
+      "id": "kk-t07",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"feature\"}"
+    },
+    {
+      "id": "kk-t08",
+      "strategy": "zero-shot",
+      "raw": "```json\n{\n  \"label\": \"bug\"\n}\n```"
+    },
+    {
+      "id": "kk-t08",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"feature\"}"
+    },
+    {
+      "id": "kk-t09",
+      "strategy": "zero-shot",
+      "raw": "{\"label\": \"bug\"}"
+    },
+    {
+      "id": "kk-t09",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"feature\"}"
+    },
+    {
+      "id": "kk-t10",
+      "strategy": "zero-shot",
+      "raw": "{\"label\": \"bug\"}"
+    },
+    {
+      "id": "kk-t10",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"feature\"}"
+    },
+    {
+      "id": "kk-t11",
+      "strategy": "zero-shot",
+      "raw": "{\"label\": \"bug\"}"
+    },
+    {
+      "id": "kk-t11",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"feature\"}"
+    },
+    {
+      "id": "kk-t12",
+      "strategy": "zero-shot",
+      "raw": "{\"label\": \"bug\"}"
+    },
+    {
+      "id": "kk-t12",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"feature\"}"
+    },
+    {
+      "id": "kk-t13",
+      "strategy": "zero-shot",
+      "raw": "{\"label\": \"bug\"}"
+    },
+    {
+      "id": "kk-t13",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"feature\"}"
+    },
+    {
+      "id": "kk-t14",
+      "strategy": "zero-shot",
+      "raw": "{\n  \"label\": \"bug\"\n}"
+    },
+    {
+      "id": "kk-t14",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"feature\"}"
+    },
+    {
+      "id": "kk-t15",
+      "strategy": "zero-shot",
+      "raw": "{\"label\": \"bug\"}"
+    },
+    {
+      "id": "kk-t15",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"feature\"}"
+    },
+    {
+      "id": "ru-t01",
+      "strategy": "zero-shot",
+      "raw": "{\"label\": \"bug\"}"
+    },
+    {
+      "id": "ru-t01",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"bug\"}"
+    },
+    {
+      "id": "ru-t02",
+      "strategy": "zero-shot",
+      "raw": "{\"label\": \"bug\"}"
+    },
+    {
+      "id": "ru-t02",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"bug\"}"
+    },
+    {
+      "id": "ru-t03",
+      "strategy": "zero-shot",
+      "raw": "{\"label\": \"bug\"}"
+    },
+    {
+      "id": "ru-t03",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"bug\"}"
+    },
+    {
+      "id": "ru-t04",
+      "strategy": "zero-shot",
+      "raw": "{\"label\": \"bug\"}"
+    },
+    {
+      "id": "ru-t04",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"bug\"}"
+    },
+    {
+      "id": "ru-t05",
+      "strategy": "zero-shot",
+      "raw": "{\"label\": \"bug\"}"
+    },
+    {
+      "id": "ru-t05",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"bug\"}"
+    },
+    {
+      "id": "ru-t06",
+      "strategy": "zero-shot",
+      "raw": "```json\n{\n  \"label\": \"feature\"\n}\n```"
+    },
+    {
+      "id": "ru-t06",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"docs\"}"
+    },
+    {
+      "id": "ru-t07",
+      "strategy": "zero-shot",
+      "raw": "```json\n{\n  \"label\": \"bug\"\n}\n```"
+    },
+    {
+      "id": "ru-t07",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"bug\"}"
+    },
+    {
+      "id": "ru-t08",
+      "strategy": "zero-shot",
+      "raw": "{\"label\": \"bug\", \"description\": \"The link to the format of the response in the guide leads to page 404.\"}"
+    },
+    {
+      "id": "ru-t08",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"bug\"}"
+    },
+    {
+      "id": "ru-t09",
+      "strategy": "zero-shot",
+      "raw": "```json\n{\n  \"label\": \"bug\"\n}\n```"
+    },
+    {
+      "id": "ru-t09",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"bug\"}"
+    },
+    {
+      "id": "ru-t10",
+      "strategy": "zero-shot",
+      "raw": "```json\n{\n  \"label\": \"feature\"\n}\n```"
+    },
+    {
+      "id": "ru-t10",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"docs\"}"
+    },
+    {
+      "id": "ru-t11",
+      "strategy": "zero-shot",
+      "raw": "{\"label\": \"feature\", \"type\": \"new software behavior\"}"
+    },
+    {
+      "id": "ru-t11",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"feature\"}"
+    },
+    {
+      "id": "ru-t12",
+      "strategy": "zero-shot",
+      "raw": "```json\n{\n  \"label\": \"feature\"\n}\n```"
+    },
+    {
+      "id": "ru-t12",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"feature\"}"
+    },
+    {
+      "id": "ru-t13",
+      "strategy": "zero-shot",
+      "raw": "```json\n{\n  \"label\": \"feature\"\n}\n```"
+    },
+    {
+      "id": "ru-t13",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"feature\"}"
+    },
+    {
+      "id": "ru-t14",
+      "strategy": "zero-shot",
+      "raw": "```json\n{\n  \"label\": \"feature\"\n}\n```"
+    },
+    {
+      "id": "ru-t14",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"feature\"}"
+    },
+    {
+      "id": "ru-t15",
+      "strategy": "zero-shot",
+      "raw": "```json\n{\n  \"label\": \"feature\"\n}\n```"
+    },
+    {
+      "id": "ru-t15",
+      "strategy": "few-shot",
+      "raw": "{\"label\": \"docs\"}"
+    }
+  ]
+}
